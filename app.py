@@ -332,7 +332,7 @@ elif page == "Modèles ML":
         elif selected_model == 'Logistic Regression':
             cm = np.array([[2, 13], [4, 19]])
             image_path = "Images/lr.png"
-        elif selected_model == 'Images/SVM':
+        elif selected_model == 'SVM':
             cm = np.array([[0, 15], [0, 23]])
             image_path = "Images/svm.png"
         elif selected_model == 'XGBoost':
